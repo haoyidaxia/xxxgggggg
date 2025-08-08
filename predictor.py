@@ -5,10 +5,10 @@
 
 
 import streamlit as st
-import joblib
 import numpy as np
 import pandas as pd
 import shap
+import joblib
 import matplotlib.pyplot as plt
 
 model=joblib.load('XGB.pkl')
